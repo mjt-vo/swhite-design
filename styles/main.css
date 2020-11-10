@@ -104,7 +104,7 @@ nav {
 img {
   max-width: 350px;
 }
-img + blockquote {
+blockquote {
   margin-left: var(--spacing-m);
   border-left: 3px solid var(--color-highlight);
   padding: 0 0 var(--spacing-m) var(--spacing-s);
@@ -114,6 +114,39 @@ img + blockquote {
       /* responsiveness  */
       /* * * * * * * * * */
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) and (min-width: 701px) {
+  img {
+    max-width: 250px;
+  }
+}
 
+@media (max-width: 700px) {
+  body, main {
+    display: block;
+  }
+  header {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  nav {
+    display: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  blockquote {
+    margin-top: var(--spacing-m);
+    margin-left: 0;
+    border-left: 0;
+    padding: 0;
+  }
+  blockquote:before {
+    display: block;
+    content: " ";
+    margin-bottom: var(--spacing-s);
+    width: 15%;
+    height: 1px;
+    border-top: 3px solid var(--color-highlight);
+  }
 }
