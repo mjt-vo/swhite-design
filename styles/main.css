@@ -152,7 +152,6 @@ blockquote {
     content: " ";
     margin-bottom: var(--spacing-s);
     width: 15%;
-    height: 1px;
-    border-top: 3px solid var(--color-highlight);
+    border-top: 2px solid var(--color-highlight);
   }
 }
