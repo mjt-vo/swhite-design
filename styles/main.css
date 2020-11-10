@@ -115,12 +115,18 @@ blockquote {
       /* * * * * * * * * */
 
 @media (max-width: 1000px) and (min-width: 701px) {
+  html {
+    font-size: 9px;
+  }
   img {
     max-width: 250px;
   }
 }
 
 @media (max-width: 700px) {
+  html {
+    font-size: 8px;
+  }
   body, main {
     display: block;
   }
