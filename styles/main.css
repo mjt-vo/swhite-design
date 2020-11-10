@@ -118,6 +118,9 @@ blockquote {
   html {
     font-size: 9px;
   }
+  h1, blockquote {
+    border-width: 2px;
+  }
   img {
     max-width: 250px;
   }
@@ -134,9 +137,6 @@ blockquote {
   }
   nav {
     display: none;
-  }
-  h1 {
-    border-width: 2px;
   }
   img {
     max-width: 100%;
