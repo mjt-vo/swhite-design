@@ -1,0 +1,65 @@
+      /* * * * * * */
+      /* variables */
+      /* * * * * * */
+
+:root {
+  --color-main: #000;
+  --color-bg: #eaeaea;
+  --margin-xs: 10px;
+  --margin-s: 20px;
+  --margin-l: 40px;
+  --margin-xl: 80px;
+}
+
+html {
+  position: relative;
+  font-family: monospace;
+  font-size: 10px;
+  color: var(--color-main);
+  background: var(--color-bg);
+}
+
+/* reset */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 300;
+}
+
+      /* * * * * * * */
+      /* typography  */
+      /* * * * * * * */
+
+
+      /* * * * * */
+      /* layout  */
+      /* * * * * */
+
+/* clearfix */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+      /* * * */
+      /* nav */
+      /* * * */
+
+
+
+      /* * * * * */
+      /* images  */
+      /* * * * * */
+
+
+
+      /* * * * * * * * * */
+      /* responsiveness  */
+      /* * * * * * * * * */
+
+@media (max-width: 600px) {
+
+}
