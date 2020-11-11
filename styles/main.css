@@ -87,6 +87,9 @@ h1 a:not(.nav-item-link):hover {
 span {
   display: inline-block;
 }
+strong span {
+  color: var(--color-highlight);
+}
 
 p:not(:last-child) {
   margin-bottom: var(--spacing-m);
