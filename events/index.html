@@ -6,20 +6,28 @@
   <meta name="description" content="Simone White" />
   <meta name="keywords" content="Simone White, poet, writer, author" />
   <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
+  <script language="javascript" type="text/javascript" src="../scripts/nav.js"></script>
 </head>
 <body>
   <header>
     <h1><a href="../">Simone White</a></h1>
+    <p class="nav-toggle">(menu)</p>
     <nav>
       <li class="nav-item"><a class="nav-item-link" href="../about/">about</a></li>
       <li class="nav-item"><a class="nav-item-link" href="../writing-media/">writing/media</a></li>
       <li class="nav-item"><a class="nav-item-link" href="../teaching/">teaching</a></li>
-      <li class="nav-item"><a class="nav-item-link nav-item-link--current">events</a></li>
+      <li class="nav-item nav-item--current"><a class="nav-item-link nav-item-link--current">events</a></li>
     </nav>
   </header>
 
   <main class="main--center">
     <p>Check back soon for events.</p>
   </main>
+
+  <script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', () => {
+      initNav();
+    });
+  </script>
 </body>
 </html>

@@ -6,14 +6,16 @@
   <meta name="description" content="Simone White" />
   <meta name="keywords" content="Simone White, poet, writer, author" />
   <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
+  <script language="javascript" type="text/javascript" src="../scripts/nav.js"></script>
 </head>
 <body>
   <header>
     <h1><a href="../">Simone White</a></h1>
+    <p class="nav-toggle">(menu)</p>
     <nav>
       <li class="nav-item"><a class="nav-item-link" href="../about/">about</a></li>
       <li class="nav-item"><a class="nav-item-link" href="../writing-media/">writing/media</a></li>
-      <li class="nav-item"><a class="nav-item-link nav-item-link--current">teaching</a></li>
+      <li class="nav-item nav-item--current"><a class="nav-item-link nav-item-link--current">teaching</a></li>
       <li class="nav-item"><a class="nav-item-link" href="../events/">events</a></li>
     </nav>
   </header>
@@ -22,5 +24,11 @@
     <p><a href="https://www.english.upenn.edu/people/simone-white" target="_blank">University of Pennsylvania</a></p>
     <p><a href="https://www.english.upenn.edu/people/simone-white" target="_blank">Milton Avery Graduate School of the Arts at Bard College (Bard MFA)</a></p>
   </main>
+
+  <script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', () => {
+      initNav();
+    });
+  </script>
 </body>
 </html>

@@ -6,13 +6,15 @@
   <meta name="description" content="Simone White" />
   <meta name="keywords" content="Simone White, poet, writer, author" />
   <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
+  <script language="javascript" type="text/javascript" src="../scripts/nav.js"></script>
 </head>
 <body>
   <header>
     <h1><a href="../">Simone White</a></h1>
+    <p class="nav-toggle">(menu)</p>
     <nav>
       <li class="nav-item"><a class="nav-item-link" href="../about/">about</a></li>
-      <li class="nav-item"><a class="nav-item-link nav-item-link--current">writing/media</a></li>
+      <li class="nav-item nav-item--current"><a class="nav-item-link nav-item-link--current">writing/media</a></li>
       <li class="nav-item"><a class="nav-item-link" href="../teaching">teaching</a></li>
       <li class="nav-item"><a class="nav-item-link" href="../events/">events</a></li>
     </nav>
@@ -30,5 +32,11 @@
     <p><a href="https://www.youtube.com/watch?v=ZKlLbpg0m4E" target="_blank">Loophole of Retreat</a></p>
     <p><a href="http://writing.upenn.edu/pennsound/x/White.php" target="_blank">PennSound</a></p>
   </main>
+
+  <script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', () => {
+      initNav();
+    });
+  </script>
 </body>
 </html>

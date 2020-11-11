@@ -6,10 +6,12 @@
   <meta name="description" content="Simone White" />
   <meta name="keywords" content="Simone White, poet, writer, author" />
   <link rel="stylesheet" type="text/css" href="./styles/main.css"/>
+  <script language="javascript" type="text/javascript" src="./scripts/nav.js"></script>
 </head>
 <body>
   <header>
     <h1>Simone White</h1>
+    <p class="nav-toggle">(menu)</p>
     <nav>
       <li class="nav-item"><a class="nav-item-link" href="./about/">about</a></li>
       <li class="nav-item"><a class="nav-item-link" href="./writing-media/">writing/media</a></li>
@@ -22,5 +24,11 @@
     <img src="images/Simone-White-profile.jpg" alt="portrait of Simone White, in profile"/>
     <blockquote>&ldquo;the quality of light by which we scrutinize our lives has direct bearing upon the product which we live...&rdquo; <span><strong>― Audre Lorde</strong></span></blockquote>
   </main>
+
+  <script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', () => {
+      initNav();
+    });
+  </script>
 </body>
 </html>
