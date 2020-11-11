@@ -95,10 +95,6 @@ p:not(:last-child) {
   margin-bottom: var(--spacing-m);
 }
 
-.img--about + p {
-  margin-top: var(--spacing-xs);
-}
-
 blockquote {
   border-left: 3px solid var(--color-highlight);
   padding: 0 0 var(--spacing-m) var(--spacing-s);
@@ -156,20 +152,10 @@ img {
   margin-right: var(--spacing-m);
   max-width: 350px;
 }
-.img--about {
-  float: left;
-  margin-bottom: var(--spacing-s);
-}
 
       /* * * * * * * * * */
       /* responsiveness  */
       /* * * * * * * * * */
-
-@media (max-width: 1250px) {
-  .img--about + p {
-    margin-top: 0;
-  }
-}
 
 @media (max-width: 1000px) {
   html {
