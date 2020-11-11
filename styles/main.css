@@ -202,6 +202,7 @@ img {
     margin: calc(var(--header-height) + var(--spacing-m)) 0;
   }
   img {
+    margin-right: 0;
     max-width: 100%;
   }
   blockquote {
