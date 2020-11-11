@@ -118,6 +118,9 @@ blockquote {
   html {
     font-size: 9px;
   }
+  h1, .nav-item-link {
+    padding-bottom: 2px;
+  }
   h1, blockquote, .nav-item-link {
     border-width: 2px;
   }
