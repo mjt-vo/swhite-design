@@ -100,7 +100,7 @@ blockquote {
 
 a:not(.nav-item-link) {
   display: inline-block;
-  margin: 0 -5px;
+  margin: 0 -3px;
   padding: 0 3px;
   transition: background-color .2s;
 }
