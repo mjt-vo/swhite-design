@@ -181,7 +181,7 @@ img {
 }
 
 @media (max-width: 700px) {
-  body, main {
+  body, main, .main--home {
     display: block;
   }
   header {
