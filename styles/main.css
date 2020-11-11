@@ -191,7 +191,7 @@ img {
     left: 0;
   }
   main {
-    margin: calc(var(--header-height) + var(--spacing-m)) 0;
+    margin: calc(var(--header-height) + var(--spacing-xs)) 0;
   }
   img {
     margin-right: 0;
@@ -217,6 +217,7 @@ img {
   nav {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   .nav-item {
     display: none;
