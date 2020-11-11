@@ -80,6 +80,9 @@ h1 a {
   font-weight: 500;
   color: inherit;
 }
+h1 a:not(.nav-item-link):hover {
+  background-color: var(--color-bg);
+}
 
 span {
   display: inline-block;
@@ -191,6 +194,9 @@ img {
   }
   nav {
     display: none;
+  }
+  main {
+    margin: calc(var(--header-height) + var(--spacing-m)) 0;
   }
   img {
     max-width: 100%;
