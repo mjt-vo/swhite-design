@@ -8,7 +8,7 @@ function initNav() {
 
   function closeMenu () {
     nav.classList.remove('nav--active');
-    toggle.innerHTML = '(menu)';
+    toggle.innerHTML = 'menu';
     active = false;
   }
 
@@ -19,7 +19,7 @@ function initNav() {
     }
     // open state
     else {
-      toggle.innerHTML = '(close menu)';
+      toggle.innerHTML = 'close menu';
       nav.classList.add('nav--active');
       active = true;
     }
