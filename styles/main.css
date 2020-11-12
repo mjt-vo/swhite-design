@@ -163,13 +163,11 @@ nav {
 }
 .nav-toggle:before {
   content: "(";
-  color: var(--color-highlight);
   margin-right: 2px;
   font-weight: 500;
 }
 .nav-toggle:after {
   content: ")";
-  color: var(--color-highlight);
   font-weight: 500;
   margin-left: 2px;
 }
