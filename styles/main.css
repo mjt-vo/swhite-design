@@ -92,7 +92,7 @@ strong span {
 }
 
 p:not(:last-child) {
-  margin-bottom: var(--spacing-m);
+  margin-bottom: var(--spacing-l);
 }
 p.nav-toggle:not(:last-child) {
   margin-bottom: 0;
@@ -223,8 +223,10 @@ img {
     display: none;
     margin: var(--spacing-s) 0 0 0;
   }
-  .nav-item.nav-item--current {
+  .nav-item:not(.nav-item--current) {
     order: -1;
+    text-align: right;
+    font-size: 1.5rem;
   }
   .nav-toggle,
   .nav-item.nav-item--current,
