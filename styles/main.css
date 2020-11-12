@@ -20,7 +20,6 @@ html {
   font-size: 10px;
   color: var(--color-main);
   background: var(--color-bg);
-  -webkit-text-size-adjust: 100%;
 }
 
 /* reset */
@@ -35,7 +34,6 @@ body, h1, h2, h3, p, blockquote, ul, li, a {
 a {
   color: #4933f9;
   text-decoration: none;
-  font-size: inherit;
 }
 
       /* * * * * */
