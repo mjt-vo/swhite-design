@@ -216,7 +216,7 @@ img {
   .column--image {
     margin-bottom: var(--spacing-l);
   }
-  p:not(.nav-toggle) {
+  p:not(.nav-toggle):not(.caption) {
     margin-top: var(--spacing-l);
   }
   img {
