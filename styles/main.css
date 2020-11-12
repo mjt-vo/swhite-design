@@ -23,7 +23,7 @@ html {
 }
 
 /* reset */
-body, h1, h2, h3, p, blockquote, ul, li {
+body, h1, h2, h3, p, blockquote, ul, li, a {
   margin: 0;
   padding: 0;
   font-size: 2rem;
@@ -125,9 +125,12 @@ a:not(.nav-item-link):hover {
 .caption {
   margin-top: var(--spacing-xs);
   max-width: 350px;
+}
+.caption, .caption a {
   font-size: 1.5rem;
   font-style: italic;
 }
+
 
       /* * * */
       /* nav */
@@ -145,15 +148,14 @@ nav {
 
 .nav-item-link {
   display: inline-block;
-  border-bottom: 3px solid;
-  border-color: var(--color-bg);
+  border-bottom: 3px solid var(--color-bg);
   padding-bottom: 3px;
   color: inherit;
-  /* transition: border-color .2s; */
+  transition: border-bottom .2s;
 }
 .nav-item-link:hover,
 .nav-item-link--current {
-  border-color: var(--color-highlight);
+  border-bottom: 3px solid var(--color-highlight);
 }
 
 .nav-toggle {
@@ -192,6 +194,10 @@ img {
   }
   h1, blockquote, .nav-item-link {
     border-width: 2px;
+  }
+  .nav-item-link:hover,
+  .nav-item-link--current {
+    border-bottom: 2px solid var(--color-highlight);
   }
   img {
     max-width: 250px;
@@ -251,15 +257,20 @@ img {
   nav {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: right;
   }
   .nav-item {
     display: none;
-    margin: var(--spacing-s) 0 0 0;
+    margin: var(--spacing-xs) 0 0 0;
   }
   .nav-item:not(.nav-item--current) {
     order: -1;
-    text-align: right;
+  }
+  .nav-item.nav-item--current {
+    margin-top: var(--spacing-m);
+    text-align: center;
+  }
+  .nav-item-link:not(.nav-item-link--current) {
     font-size: 1.5rem;
   }
   .nav-toggle,
