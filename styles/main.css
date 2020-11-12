@@ -163,13 +163,11 @@ nav {
 }
 .nav-toggle:before {
   content: "(";
-  margin-right: 2px;
-  font-weight: 500;
+  margin-right: 1px;
 }
 .nav-toggle:after {
   content: ")";
-  font-weight: 500;
-  margin-left: 2px;
+  margin-left: 1px;
 }
 
       /* * * * * */
