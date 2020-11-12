@@ -20,6 +20,7 @@ html {
   font-size: 10px;
   color: var(--color-main);
   background: var(--color-bg);
+  -webkit-text-size-adjust: 100%;
 }
 
 /* reset */
