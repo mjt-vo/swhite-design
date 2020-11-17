@@ -250,9 +250,6 @@ img {
   p:not(.nav-toggle):not(.caption) {
     margin-top: var(--spacing-l);
   }
-  .column--text > p:first-child:not(.nav-toggle):not(.caption) {
-    margin-top: var(--spacing-m);
-  }
   img {
     margin-right: 0;
     max-width: 100%;
@@ -289,6 +286,9 @@ img {
   .nav-item.nav-item--current {
     margin-top: var(--spacing-m);
     text-align: center;
+  }
+  .nav-item:last-child {
+    margin-right: 0;
   }
   .nav-item-link:not(.nav-item-link--current) {
     font-size: 1.5rem;
