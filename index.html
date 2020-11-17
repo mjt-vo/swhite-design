@@ -20,22 +20,14 @@
     </nav>
   </header>
 
-  <main class="main--center">
+  <main class="main--home">
     <img src="images/Simone-White-profile.jpg" alt="portrait of Simone White, in profile"/>
-    <!-- <p>the quality of light by which we scrutinize our lives has direct bearing upon the product which we live... <span><strong>― Audre Lorde</strong></span></p> -->
+    <p>the quality of light by which we scrutinize our lives has direct bearing upon the product which we live... <span><strong>― Audre Lorde</strong></span></p>
   </main>
 
   <script type="text/javascript">
     window.addEventListener('DOMContentLoaded', () => {
       initNav();
-    });
-
-    const imgElm = document.querySelector('img'),
-      mainElm = document.querySelector('main');
-
-    imgElm.addEventListener('click', () => {
-      mainElm.classList.toggle('main--center');
-      mainElm.classList.toggle('main--home');
     });
   </script>
 </body>
