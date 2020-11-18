@@ -81,9 +81,6 @@ main {
   float: right;
   width: calc(100% - 400px);
 }
-.column--text p:first-child {
-  margin-top: var(--spacing-m);
-}
 
       /* * * * * * * */
       /* typography  */
