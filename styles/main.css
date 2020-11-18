@@ -101,7 +101,7 @@ h1 a:not(.nav-item-link):hover {
 
 h2 {
   display: inline-block;
-  margin-bottom: 40px;
+  margin-bottom: var(--spacing-m);
   font-size: 1.5rem;
   font-style: italic;
 }
