@@ -259,7 +259,7 @@ img {
   .column--text p:first-child:not(.nav-toggle):not(.caption) {
     margin-top: var(--spacing-m);
   }
-  p:not(.nav-toggle):not(.caption) {
+  p:not(.nav-toggle) {
     margin-top: var(--spacing-l);
   }
   img {
