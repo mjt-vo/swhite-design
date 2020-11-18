@@ -103,23 +103,10 @@ h2 {
   display: inline-block;
   margin-bottom: 40px;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-style: italic;
 }
 h2:not(:first-child) {
   margin-top: var(--spacing-l);
-}
-h2:before, h2:after {
-  display: inline-block;
-  position: relative;
-  top: 4px;
-  content: "\00b0";
-  color: var(--color-highlight);
-}
-h2:before {
-  margin-right: 10px;
-}
-h2:after {
-  margin-left: 10px;
 }
 span {
   display: inline-block;
@@ -319,6 +306,16 @@ img {
   }
   h2 {
     margin-bottom: 0;
+    border-bottom: 2px solid var(--color-highlight);
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h2:first-child {
+    margin-top: -20px;
+  }
+  h2:not(:first-child) {
+    margin-top: var(--spacing-xl);
   }
 }
 
