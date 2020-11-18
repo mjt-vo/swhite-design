@@ -81,6 +81,9 @@ main {
   float: right;
   width: calc(100% - 400px);
 }
+.column--text p:first-child {
+  margin-top: var(--spacing-m);
+}
 
       /* * * * * * * */
       /* typography  */
@@ -110,11 +113,8 @@ strong span {
   color: var(--color-highlight);
 }
 
-p:not(:last-child) {
+p:not(:last-child):not(.nav-toggle) {
   margin-bottom: var(--spacing-m);
-}
-p.nav-toggle:not(:last-child) {
-  margin-bottom: 0;
 }
 
 .main--home p {
