@@ -247,6 +247,9 @@ img {
   .column--image {
     margin-bottom: var(--spacing-m);
   }
+  .column--text p:first-child:not(.nav-toggle):not(.caption) {
+    margin-top: var(--spacing-m);
+  }
   p:not(.nav-toggle):not(.caption) {
     margin-top: var(--spacing-l);
   }
